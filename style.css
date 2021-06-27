@@ -1,0 +1,231 @@
+/* Basic CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.fix-width{
+    width: 1024px;
+}
+
+/* Header Section */
+.header{
+    background: #22c3a3;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 33px;
+    font-size: 22px;
+}
+.header-left a img{}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul {
+    text-align: right;
+    
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 27px;
+    transition: .5s;
+    line-height: 19px;
+}
+.header-right ul li a:hover{
+    background: #22a6b3;
+}
+.banner{
+    background: url(https://i.ibb.co/QbjvW9G/Class-21-banner.jpg) no-repeat;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    background-size: cover;
+}
+.description{
+    text-align: center;
+}
+.description h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 123px;
+}
+.description p {
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+}
+.button_div{
+    text-align: center;
+}
+.button {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 9px 8px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.button::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .4s;
+}
+.button:hover::before{
+    background: crimson;
+    width: 100%;
+}
+.service{
+    background: #fff;
+    padding: 0 30px;
+}
+.service-content{
+    text-align: center;
+}
+.service-content h2{
+    color: #865e46;
+    padding-top: 41px;
+}
+.service-content p{
+    color: #865e46;
+    padding-top: 20px;
+}
+.service_items{
+
+}
+.service-box {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.service-box a {
+    color: #00be98;
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+.service-box h4{
+    text-align: center;
+}
+.service-box p{
+    text-align: center;
+    margin-bottom: 62px;
+}
+/* about section */
+.about{
+    margin-bottom: 85px;
+}
+.about-details{
+    text-align: center;
+    /* margin-left: 350px; */
+}
+.about-details h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.about-details p {
+    margin-bottom: 55px;
+    font-size: 20px;
+}
+.floating_section{
+  
+}
+.float-left img{
+    width: 40%;
+    float: left;
+}
+.float-right{
+    width: 55%;
+    float: right;
+}
+.about-box h2 {
+    margin-bottom: 8px;
+}
+.about-box p {
+    margin-bottom: 16px;
+}
+/* contact section */
+.contact_section{
+    background: #f6f6f6;
+    margin-top: 100px;
+}
+.contact_content{
+    text-align: center;
+}
+.contact_content h1 {
+    padding-top: 54px;
+    padding-bottom: 30px;
+}
+.contact_content p {
+    padding-bottom: 69px;
+}
+.contact_item{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.contact_item span{
+    color: #0dbf9b;
+    margin-bottom: 10px;
+}
+.contact_item p {
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+/* social section */
+.social_section{
+    background: #0dbf9b;
+}
+.social_section ul{
+    text-align: center;
+}
+.social_section ul li{
+    display: inline-block;
+}
+.social_section ul li a{
+    color: #fff;
+    padding: 27px 15px;
+}
+.footer_section{
+    background: #222222;
+}
+.footer_section p {
+    text-align: center;
+    color: #fff;
+    padding: 17px;
+    font-size: 14px;
+}
