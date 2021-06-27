@@ -61,7 +61,7 @@
     background: #22a6b3;
 }
 .banner{
-    background: url(./image/Class\ 21\ banner.jpg) no-repeat;
+    background: url(https://i.ibb.co/QbjvW9G/Class-21-banner.jpg) no-repeat;
     height: 400px;
     width: auto;
     max-width: 100%;
@@ -80,6 +80,9 @@
     text-align: center;
     padding: 17px;
 }
+.button_div{
+    text-align: center;
+}
 .button {
     color: #fff;
     text-align: center;
@@ -88,7 +91,6 @@
     border: 2px solid #fff;
     padding: 9px 8px;
     border-radius: 5px;
-    margin-left: 631px;
     position: relative;
     z-index: 1;
 }
@@ -121,14 +123,17 @@
     color: #865e46;
     padding-top: 20px;
 }
-.service-box{
-    float: left;
-    width: 25%;
+.service_items{
+
+}
+.service-box {
+	float: left;
+	width: 25%;
+	text-align: center;
 }
 .service-box a {
     color: #00be98;
     font-size: 28px;
-    padding: 0 150px;
     display: inline-block;
     margin-top: 38px;
     margin-bottom: 20px;
@@ -139,4 +144,88 @@
 .service-box p{
     text-align: center;
     margin-bottom: 62px;
+}
+/* about section */
+.about{
+    margin-bottom: 85px;
+}
+.about-details{
+    text-align: center;
+    /* margin-left: 350px; */
+}
+.about-details h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.about-details p {
+    margin-bottom: 55px;
+    font-size: 20px;
+}
+.floating_section{
+  
+}
+.float-left img{
+    width: 40%;
+    float: left;
+}
+.float-right{
+    width: 55%;
+    float: right;
+}
+.about-box h2 {
+    margin-bottom: 8px;
+}
+.about-box p {
+    margin-bottom: 16px;
+}
+/* contact section */
+.contact_section{
+    background: #f6f6f6;
+    margin-top: 100px;
+}
+.contact_content{
+    text-align: center;
+}
+.contact_content h1 {
+    padding-top: 54px;
+    padding-bottom: 30px;
+}
+.contact_content p {
+    padding-bottom: 69px;
+}
+.contact_item{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.contact_item span{
+    color: #0dbf9b;
+    margin-bottom: 10px;
+}
+.contact_item p {
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+/* social section */
+.social_section{
+    background: #0dbf9b;
+}
+.social_section ul{
+    text-align: center;
+}
+.social_section ul li{
+    display: inline-block;
+}
+.social_section ul li a{
+    color: #fff;
+    padding: 27px 15px;
+}
+.footer_section{
+    background: #222222;
+}
+.footer_section p {
+    text-align: center;
+    color: #fff;
+    padding: 17px;
+    font-size: 14px;
 }
